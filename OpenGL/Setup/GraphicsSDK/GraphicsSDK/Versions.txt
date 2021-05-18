@@ -1,0 +1,24 @@
+===================
+Version Information
+===================
+
+GLEW - The OpenGL Extension Wrangler Library
+Version 2.0.0
+Available from: http://glew.sourceforge.net/
+
+GLFW
+Version 3.2.1
+Available from: http://www.glfw.org/
+
+GLM - OpenGL Mathematics
+Version 0.9.8.4
+Available from: http://glm.g-truc.net/0.9.8/index.html
+
+AntTweakBar
+Version 1.16
+Available from: http://anttweakbar.sourceforge.net/doc/
+
+Assimp - Open Asset Import Library
+Version 3.3.1
+Available from: http://assimp.sourceforge.net/
+

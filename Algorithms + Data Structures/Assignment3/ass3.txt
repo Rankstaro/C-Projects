@@ -1,0 +1,28 @@
+RESULTS:
+The results for Djikstras algorithm were initially confusing, as I did not know how to 
+properly output the correct data! Eventually I realised that my algorithm was correct,
+and that I merely needed to construct the path using child = parent[child] in a loop, 
+starting from the end vertex. This set back caused me to be unable to complete the
+Assignment in full.
+For the sample data provided the results were:
+Length: 8.5 
+	The value of D(endv), where endv is the ending vertex
+Path: 16, 8, 4, 19
+Additional Selected: 13
+	A count from array S but ignore all S which are in the Path or -1 valued.
+
+Efficiency:
+Method 1:
+O(|V|2 + |E|)
+For each vertex w in Candidate set C within reach of the current vertex v,
+the minimum D(w) is added to the D array. This involves two linear searches.
+Method 2:
+Can be the same in terms of effeciency as method 1, however it can also improve
+efficiency.
+Method 3:
+O(|V|.log|V|+|E|)
+
+ 
+Problems that may arise
+Method 1:
+Worst case- Djikstras algorithm will perform many operations as it branches out.
